@@ -65,10 +65,10 @@ body {
 
 .home-title {
   color: var(--dark-color);
-  margin: 200px 0 50px;
+  margin: 250px 0 50px;
   padding-left: 120px;
   font-family: "Cinzel", serif;
-  font-size: 8rem;
+  font-size: 7rem;
   background-image: linear-gradient(var(--yellow-color), var(--yellow-color));
   background-repeat: no-repeat;
   background-size: 0% 100%;
@@ -118,7 +118,7 @@ body {
   font-size: 3rem;
   position: relative;
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 0 0;
 }
 .social {
   color: var(--medium-color);
@@ -259,7 +259,7 @@ body {
 }
 
 .project-card {
-  margin: 30px;
+  margin: 30px 30px 50px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   background-color: #e4e2e073;
@@ -283,14 +283,15 @@ body {
 .project-card:hover .card-caption {
   height: 350px;
   border-radius: 20px;
-  background-color: var(--dark-color);
+  background-color: var(--medium-color);
+  opacity: 0.98;
   transform: translateY(-100%);
   transition: 300ms;
 }
 
 .card-caption {
   padding: 60px 40px;
-  color: var(--medium-color);
+  color: var(--dark-color);
 }
 
 .card-title {
@@ -308,7 +309,7 @@ body {
   text-decoration: none;
   font-size: 1.2rem;
   margin-right: 50px;
-  color: var(--dark-color);
+  color: var(--medium-color);
   border-radius: 20px;
   background-color: var(--yellow-color);
   border: solid 3px #ffcf76;
@@ -316,7 +317,7 @@ body {
 }
 
 .link-button:hover {
-  background-color: var(--dark-color);
+  background-color: var(--medium-color);
   color: var(--yellow-color);
 }
 
@@ -331,4 +332,138 @@ body {
 
 .code-button:hover {
   color: var(--yellow-color);
+}
+
+/* Contact */
+.contact-title {
+  color: var(--yellow-color);
+  font-family: "Cinzel", serif;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.contact-sub {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  padding-bottom: 100px;
+  color: var(--medium-color);
+}
+
+.contact-container {
+  padding: 0 150px;
+}
+
+.contact-container .socials {
+  padding: 0;
+  top: 22%;
+}
+
+.contact-img {
+  position: relative;
+  top: 10%;
+  left: 25%;
+}
+
+.contact-input {
+  font-size: 2rem;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.contact-input input {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 3px solid var(--medium-color);
+  outline: none;
+  background: #e4e2e073;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.contact-input span {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  transition: 600ms;
+  z-index: -1;
+  margin-left: 20px;
+  color: var(--medium-color);
+}
+
+.contact-input input:focus ~ span,
+.contact-input input:valid ~ span {
+  transform: translateX(-10px) translateY(-70px);
+  color: var(--yellow-color);
+}
+
+.message-box input {
+  min-height: 200px;
+}
+
+.message-box {
+  margin-bottom: 40px;
+}
+
+.contact-btn {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--medium-color);
+  border-radius: 20px;
+  background-color: var(--yellow-color);
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.contact-btn:hover {
+  transform: translateY(-5px);
+}
+
+.email-text {
+  text-align: center;
+  color: var(--medium-color);
+}
+
+/* Footer */
+
+.footer-container {
+  background-color: #e4e2e073;
+  margin-top: 25px;
+  padding: 20px;
+}
+
+.footer-text {
+  text-align: center;
+  color: var(--medium-color);
+}
+
+/* Media Phone */
+@media (max-width: 991px) {
+  .home-img {
+    display: none;
+  }
+
+  .about-container {
+    padding-bottom: 100px;
+  }
+  .about-img {
+    position: relative;
+    left: 23%;
+    margin-bottom: 50px;
+  }
+  .about-title {
+    text-align: center;
+    padding: 0;
+  }
+  .about-content {
+    text-align: center;
+    padding: 70px 70px 0;
+  }
+  .logo-container {
+    padding-bottom: 200px;
+  }
 }
