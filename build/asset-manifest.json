@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.534eebd1.css",
+    "main.js": "/static/js/main.c00eda5a.js",
+    "static/media/handyman.png": "/static/media/handyman.8a81d71b6dc9f085f22e.png",
+    "static/media/seantill.png": "/static/media/seantill.d6d603e4a43e63c4cc74.png",
+    "static/media/forkify.png": "/static/media/forkify.7c5ded236cfe7ee8541f.png",
+    "static/media/mapty.png": "/static/media/mapty.e3a80494c2c8c3b4e76c.png",
+    "static/media/piggame.png": "/static/media/piggame.b34f6e1941bdadee166f.png",
+    "static/media/JT-photo.png": "/static/media/JT-photo.77fdd72be583daea2b83.png",
+    "static/media/bankist.png": "/static/media/bankist.c59fece19bed0e534333.png",
+    "static/media/arrays.png": "/static/media/arrays.00aff6a7921493a044c7.png",
+    "static/media/tindog.png": "/static/media/tindog.510458368e3aa7f12bf9.png",
+    "static/media/drumgame.png": "/static/media/drumgame.9d4404b02ab30d90215e.png",
+    "static/media/dicegame.png": "/static/media/dicegame.2d995453206c925b0a8a.png",
+    "static/media/fast.gif": "/static/media/fast.434ec188e3d42fd7c598.gif",
+    "static/media/simongame.png": "/static/media/simongame.8b1169808d925623e108.png",
+    "static/media/guessmynum.png": "/static/media/guessmynum.f26766c13cfc89dd989b.png",
+    "static/media/relationship.gif": "/static/media/relationship.0fda1494f6fc2d5ae2af.gif",
+    "static/media/client.gif": "/static/media/client.a4b25e1bc6d2c23f913e.gif",
+    "static/media/computer.gif": "/static/media/computer.6b57b9b529ff940cfedd.gif",
+    "static/media/JT-logo.png": "/static/media/JT-logo.ea9111f9c8cea077d13c.png",
+    "static/media/Sitting.png": "/static/media/Sitting.99152e8aaa864cefa52d.png",
+    "static/media/Standing.png": "/static/media/Standing.f2a01fbd3a2cf78c3601.png",
+    "static/media/pattern-dark.png": "/static/media/pattern-dark.12fc1a7a26724fd592f6.png",
+    "index.html": "/index.html",
+    "main.534eebd1.css.map": "/static/css/main.534eebd1.css.map",
+    "main.c00eda5a.js.map": "/static/js/main.c00eda5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.534eebd1.css",
+    "static/js/main.c00eda5a.js"
+  ]
+}
