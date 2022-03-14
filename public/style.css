@@ -27,7 +27,7 @@ body {
   background-color: #e4e2e0c7;
 }
 .nav-item {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 300;
   margin: 0 15px;
   position: relative;
@@ -65,10 +65,10 @@ body {
 
 .home-title {
   color: var(--dark-color);
-  margin: 250px 0 50px;
-  padding-left: 120px;
+  margin: 25% 5% 5%;
+  padding-left: 10%;
   font-family: "Cinzel", serif;
-  font-size: 7rem;
+  font-size: 6rem;
   background-image: linear-gradient(var(--yellow-color), var(--yellow-color));
   background-repeat: no-repeat;
   background-size: 0% 100%;
@@ -84,13 +84,13 @@ body {
 }
 
 .home-subtitle {
-  padding-left: 120px;
-  font-size: 3rem;
+  padding-left: 15%;
+  font-size: 2.7rem;
   animation: fadeIn 3000ms;
 }
 
 .home-content {
-  padding-left: 120px;
+  padding-left: 15%;
   font-size: 1.8rem;
   font-weight: 300;
   animation: fadeIn 3000ms;
@@ -100,7 +100,7 @@ body {
   position: relative;
   top: 150px;
   transform: scaleX(-1);
-  animation: fadeIn 5000ms;
+  animation: fadeIn 3000ms;
 }
 
 @keyframes fadeIn {
@@ -153,7 +153,7 @@ body {
 /* About me */
 
 .about-container {
-  padding: 200px 0;
+  padding: 15% 5% 10%;
 }
 
 .about-title {
@@ -163,8 +163,8 @@ body {
   padding-left: 50px;
 }
 .about-img {
-  height: 400px;
-  padding-left: 120px;
+  height: 380px;
+  margin-left: 25%;
 }
 
 .about-content {
@@ -178,7 +178,7 @@ body {
 .skill-header {
   color: var(--yellow-color);
   font-family: "Cinzel", serif;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   padding-bottom: 30px;
 }
@@ -187,27 +187,28 @@ body {
   text-align: center;
   font-size: 2rem;
   font-weight: 300;
-  padding-bottom: 100px;
+  padding-bottom: 5%;
 }
 
 .skill-container {
-  padding: 50px 100px;
+  padding: 5%;
 }
 
 .skill-card {
   text-align: center;
   margin: 50px;
   border-radius: 20px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .skill-icon {
   color: var(--yellow-color);
-  font-size: 5rem;
+  font-size: 4rem;
   padding-bottom: 30px;
 }
 
 .skill-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 30px;
 }
 
@@ -218,7 +219,7 @@ body {
   font-family: "Cinzel", serif;
   font-size: 4rem;
   text-align: center;
-  padding: 100px 0;
+  padding: 5% 0;
 }
 
 .promises-img {
@@ -241,11 +242,11 @@ body {
   font-family: "Cinzel", serif;
   font-size: 4rem;
   text-align: center;
-  padding: 100px 0 50px;
+  padding: 5%;
 }
 
 .project-img {
-  height: 350px;
+  height: 300px;
   position: relative;
   border-radius: 20px;
 }
@@ -267,7 +268,7 @@ body {
 
 .card-thumb {
   position: relative;
-  max-height: 350px;
+  max-height: 300px;
   overflow: hidden;
   margin: 0;
 }
@@ -281,7 +282,7 @@ body {
 }
 
 .project-card:hover .card-caption {
-  height: 350px;
+  height: 300px;
   border-radius: 20px;
   background-color: var(--medium-color);
   opacity: 0.98;
@@ -290,19 +291,18 @@ body {
 }
 
 .card-caption {
-  padding: 60px 40px;
+  padding: 30px 40px;
   color: var(--dark-color);
 }
 
 .card-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding-bottom: 10px;
 }
 
 .card-content {
-  padding-bottom: 30px;
-  font-size: 1.5rem;
-  width: 500px;
+  font-size: 1.2rem;
+  width: 450px;
 }
 
 .link-button {
@@ -340,14 +340,13 @@ body {
   font-family: "Cinzel", serif;
   font-size: 4rem;
   text-align: center;
-  padding-top: 50px;
 }
 
 .contact-sub {
   text-align: center;
   font-size: 2rem;
   font-weight: 300;
-  padding-bottom: 100px;
+  padding-bottom: 5%;
   color: var(--medium-color);
 }
 
@@ -368,6 +367,7 @@ body {
 
 .contact-input {
   font-size: 2rem;
+  font-weight: 300;
   position: relative;
   margin-bottom: 80px;
 }
@@ -442,18 +442,41 @@ body {
 }
 
 /* Media Phone */
-@media (max-width: 991px) {
+@media (max-width: 390px) {
+  /* Home */
   .home-img {
     display: none;
   }
+  .home-title {
+    margin: 0;
+    padding: 0;
+    margin-top: 50%;
+    font-size: 4rem;
+    text-align: center;
+  }
+  .home-subtitle {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10% 10% 0;
+  }
+  .home-content {
+    margin-top: 10%;
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .social {
+    font-size: 2.5rem;
+  }
 
+  /* About */
   .about-container {
     padding-bottom: 100px;
   }
   .about-img {
-    position: relative;
-    left: 23%;
+    height: 300px;
     margin-bottom: 50px;
+    margin-left: 21%;
   }
   .about-title {
     text-align: center;
@@ -461,9 +484,103 @@ body {
   }
   .about-content {
     text-align: center;
-    padding: 70px 70px 0;
+    padding: 30px 30px 0;
+    font-size: 1.2rem;
   }
   .logo-container {
     padding-bottom: 200px;
+  }
+
+  /* Skills */
+  .skill-head {
+    font-size: 1rem;
+  }
+  .skill-subhead {
+    padding-bottom: 0;
+    font-size: 1.8rem;
+  }
+
+  .skill-card {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .skill-container {
+    padding: 20%;
+  }
+  .skill-icon {
+    font-size: 3rem;
+    padding-bottom: 0;
+  }
+  .skill-title {
+    font-size: 1rem;
+    padding-bottom: 5%;
+  }
+
+  /* Promises */
+  .promises-title {
+    font-size: 3rem;
+  }
+  .promises-img {
+    left: 15%;
+  }
+  .promises-content {
+    font-size: 1.5rem;
+    padding: 0 0 30px;
+  }
+
+  /* Projects */
+  .projects-title {
+    padding-top: 20%;
+    font-size: 3rem;
+  }
+  .project-img {
+    height: 200px;
+  }
+  .card-thumb {
+    max-height: 200px;
+  }
+  .project-card:hover .card-caption {
+    height: 200px;
+  }
+  .card-content {
+    width: 280px;
+  }
+  .card-title {
+    font-size: 1.8rem;
+  }
+  .card-content {
+    font-size: 1rem;
+  }
+  .link-button {
+    font-size: 1rem;
+    padding: 3%;
+  }
+  .code-button {
+    font-size: 1.5rem;
+    padding: 1% 2% 3%;
+  }
+
+  /* Contact */
+  .contact-title {
+    font-size: 3rem;
+  }
+  .contact-sub {
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+  }
+  .contact-container {
+    padding: 0;
+  }
+  .contact-img {
+    width: 250px;
+    left: 20%;
+  }
+  .contact-input {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+  }
+  .contact-input input:focus ~ span,
+  .contact-input input:valid ~ span {
+    transform: translateX(-10px) translateY(-50px);
   }
 }
