@@ -1,15 +1,15 @@
-import handyman from "./img/handyman.png";
-import seantill from "./img/seantill.png";
-import simon from "./img/simongame.png";
-import drumkit from "./img/drumgame.png";
-import dice from "./img/dicegame.png";
-import tindog from "./img/tindog.png";
-import guessmynum from "./img/guessmynum.png";
-import piggame from "./img/piggame.png";
-import arrays from "./img/arrays.png";
-import bankist from "./img/bankist.png";
-import mapty from "./img/mapty.png";
-import forkify from "./img/forkify.png";
+import handyman from "./img/handyman.jpeg";
+import seantill from "./img/seantill.jpeg";
+import simon from "./img/simongame.jpeg";
+import drumkit from "./img/drumgame.jpeg";
+import dice from "./img/dicegame.jpeg";
+import tindog from "./img/tindog.jpeg";
+import guessmynum from "./img/guessmynum.jpeg";
+import piggame from "./img/piggameL.jpeg";
+import arrays from "./img/arraysL.jpeg";
+import bankist from "./img/bankistL.jpeg";
+import mapty from "./img/mapty.jpeg";
+import forkify from "./img/forkify.jpeg";
 
 const project = [
   {
