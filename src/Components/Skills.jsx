@@ -17,7 +17,7 @@ function Skills() {
         <h3 className="skill-subhead sub-header">
           Coding Languages & Frameworks
         </h3>
-        <div className="skill-container row">{skill.map(createSkillCard)}</div>
+        <div className="skill-container">{skill.map(createSkillCard)}</div>
       </AnimationOnScroll>
     </div>
   );

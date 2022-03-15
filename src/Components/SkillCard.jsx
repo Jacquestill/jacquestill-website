@@ -12,7 +12,7 @@ function SkillCard(props) {
 
   return (
     <div
-      className="skill-card col-lg-2 col-md-4 col-sm-6"
+      className="skill-card"
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
       style={{

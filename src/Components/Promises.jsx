@@ -19,7 +19,9 @@ function Promises() {
     <div id="promises" className="container-fluid promises-container">
       <AnimationOnScroll animateIn="animate__fadeIn">
         <h2 className="promises-title">My Promises</h2>
-        <div className="row">{promise.map(createPromiseCard)}</div>
+        <div className="promise-container">
+          {promise.map(createPromiseCard)}
+        </div>
       </AnimationOnScroll>
     </div>
   );

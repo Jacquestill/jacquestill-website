@@ -164,7 +164,9 @@ body {
 }
 .about-img {
   height: 380px;
-  margin-left: 25%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .about-content {
@@ -191,12 +193,14 @@ body {
 }
 
 .skill-container {
-  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skill-card {
   text-align: center;
-  margin: 50px;
+  width: 100px;
   border-radius: 20px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
@@ -204,12 +208,10 @@ body {
 .skill-icon {
   color: var(--yellow-color);
   font-size: 4rem;
-  padding-bottom: 30px;
 }
 
 .skill-title {
   font-size: 1.5rem;
-  padding-bottom: 30px;
 }
 
 /* Promises */
@@ -221,18 +223,26 @@ body {
   text-align: center;
   padding: 5% 0;
 }
+.promise-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.promise-card {
+  margin: 5% 10%;
+}
 .promises-img {
   height: 250px;
-  position: relative;
-  left: 35%;
+  display: flex;
+  justify-content: center;
 }
 
 .promises-content {
   font-size: 2rem;
   color: var(--medium-color);
   text-align: center;
-  padding: 30px 0 80px;
+  padding-top: 30px;
 }
 
 /* Projects */
@@ -360,9 +370,9 @@ body {
 }
 
 .contact-img {
-  position: relative;
-  top: 10%;
-  left: 25%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .contact-input {
@@ -476,7 +486,6 @@ body {
   .about-img {
     height: 300px;
     margin-bottom: 50px;
-    margin-left: 38%;
   }
   .about-title {
     text-align: center;
@@ -505,7 +514,7 @@ body {
     /* margin-bottom: 50px; */
   }
   .skill-container {
-    padding: 10% 30%;
+    padding: 10%;
   }
   .skill-icon {
     font-size: 3rem;
@@ -530,7 +539,7 @@ body {
 
   /* Projects */
   .projects-title {
-    padding-top: 20%;
+    padding-top: 5%;
     font-size: 3rem;
   }
   .project-img {
@@ -573,7 +582,6 @@ body {
   }
   .contact-img {
     width: 250px;
-    left: 20%;
   }
   .contact-input {
     font-size: 1.5rem;
@@ -582,5 +590,8 @@ body {
   .contact-input input:focus ~ span,
   .contact-input input:valid ~ span {
     transform: translateX(-10px) translateY(-50px);
+  }
+  .contact-btn {
+    font-size: 1.5rem;
   }
 }
