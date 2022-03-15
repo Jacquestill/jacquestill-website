@@ -20,8 +20,8 @@ function HomePage() {
           </p>
         </AnimationOnScroll>
       </div>
-      <div className="col-lg-2 home-img">
-        <img src={standing} alt="standing-logo" />
+      <div className="col-lg-2">
+        <img className="home-img" src={standing} alt="standing-logo" />
       </div>
       <Socials />
     </div>

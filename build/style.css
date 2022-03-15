@@ -97,8 +97,10 @@ body {
 }
 
 .home-img {
+  display: flex;
+  margin: auto;
   position: relative;
-  top: 150px;
+  top: 25%;
   transform: scaleX(-1);
   animation: fadeIn 3000ms;
 }
@@ -200,7 +202,8 @@ body {
 
 .skill-card {
   text-align: center;
-  width: 100px;
+  margin: 2%;
+  width: 150px;
   border-radius: 20px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
@@ -236,6 +239,7 @@ body {
   height: 250px;
   display: flex;
   justify-content: center;
+  margin: auto;
 }
 
 .promises-content {
@@ -511,6 +515,7 @@ body {
 
   .skill-card {
     margin: 30px;
+    width: 100px;
     /* margin-bottom: 50px; */
   }
   .skill-container {
