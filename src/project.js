@@ -22,7 +22,7 @@ const project = [
     link: "https://forkify-jacquestill.netlify.app/",
     imgUrl: forkify,
     content:
-      "A recipe search website where the user can search a desired recipe. Required data is collected from an API. The website allows for alterations of serving sizes as well as adding and bookmarking recipes. ",
+      "A recipe search website. Required data is collected from an API. The website allows for alterations of serving sizes as well as adding and bookmarking recipes. ",
     code: "https://github.com/Jacquestill/forkify-course",
   },
   {
