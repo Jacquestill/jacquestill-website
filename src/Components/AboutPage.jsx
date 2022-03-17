@@ -13,17 +13,15 @@ function AboutPage() {
         </div>
         <div className="col-lg-8">
           <AnimationOnScroll animateIn="animate__fadeIn">
-            <h2 className="about-title">Hello. My name is Jacques.</h2>
+            <h2 className="about-title">About Me</h2>
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeIn">
             <p className="about-content sub-header">
-              I am a Front-End Developer, continuously studying to master my
-              skills as a developer. I am based in South- Korea. I am passionate
-              about combining creativity with my analytical and detailed
-              oriented mindset to create an enjoyable and user friendly
-              experience for web users. I am currently looking for opportunities
-              to grow in this industry and becoming a Full-Stack Developer in
-              the future.
+              Hi! I am Jacques, a front end developer passionate about combining
+              creativity with my analytical and detailed oriented mindset to
+              create an enjoyable and user friendly experience for web users. I
+              am a determined and productive web developer dedicated to
+              delivering superior websites for my clientele.
             </p>
           </AnimationOnScroll>
         </div>

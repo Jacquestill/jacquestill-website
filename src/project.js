@@ -2,9 +2,7 @@ import handyman from "./img/handyman.jpeg";
 import seantill from "./img/seantill.jpeg";
 import simon from "./img/simongame.jpeg";
 import drumkit from "./img/drumgame.jpeg";
-import dice from "./img/dicegame.jpeg";
-import tindog from "./img/tindog.jpeg";
-import guessmynum from "./img/guessmynum.jpeg";
+import note from "./img/Note.jpeg";
 import piggame from "./img/piggameL.jpeg";
 import arrays from "./img/arraysL.jpeg";
 import bankist from "./img/bankistL.jpeg";
@@ -13,67 +11,58 @@ import forkify from "./img/forkify.jpeg";
 
 const project = [
   {
-    name: "Handyman Website",
-    link: "https://jacquestill.github.io/Andries-Handyman/",
-    imgUrl: handyman,
-    content: "Handyman website design for a client in South Africa",
-    code: "https://github.com/Jacquestill/Andries-Handyman",
+    name: "Note Keeper",
+    link: "",
+    imgUrl: note,
+    content: "A note keeping application, similar to google notes.",
+    code: "https://github.com/Jacquestill/Note-Keeper",
   },
   {
-    name: "Sean Till Brokers",
-    link: "https://jacquestill.github.io/Seantill-Brokers/",
-    imgUrl: seantill,
-    content: "Financial Advisor website design for a client",
-    code: "https://github.com/Jacquestill/Seantill-Brokers",
+    name: "Forkify Website",
+    link: "https://forkify-jacquestill.netlify.app/",
+    imgUrl: forkify,
+    content:
+      "A recipe search website where the user can search a desired recipe. Required data is collected from an API. The website allows for alterations of serving sizes as well as adding and bookmarking recipes. ",
+    code: "https://github.com/Jacquestill/forkify-course",
+  },
+  {
+    name: "Mapty Website",
+    link: "https://jacquestill-mapty.netlify.app/",
+    imgUrl: mapty,
+    content:
+      "An application Using geolocation allowing user to log workout location. This application also allow for different users to store their workout on the laters local server. ",
+    code: "https://github.com/Jacquestill/javascript_course_master/tree/main/15-Mapty",
   },
   {
     name: "Simon Game",
     link: "https://jacquestill.github.io/Simon-Game/",
     imgUrl: simon,
-    content: "Simon game that is fully funcional and fun to play",
+    content: "A fully functional Simon game built using Javascript.",
     code: "https://github.com/Jacquestill/Simon-Game",
-  },
-  {
-    name: "Drumkit Game",
-    link: "https://jacquestill.github.io/drumkit-challenge/",
-    imgUrl: drumkit,
-    content: "Using the buttons on your keyboard to play the drums",
-    code: "https://github.com/Jacquestill/drumkit-challenge",
-  },
-  {
-    name: "Dice game",
-    link: "https://jacquestill.github.io/dice-challenge/",
-    imgUrl: dice,
-    content: "A game where the highest number dice roll wins",
-    code: "https://github.com/Jacquestill/dice-challenge",
-  },
-  {
-    name: "TinDog Website",
-    link: "https://jacquestill.github.io/tindog/",
-    imgUrl: tindog,
-    content: "A dating dog website design",
-    code: "https://github.com/Jacquestill/tindog",
-  },
-  {
-    name: "Guess My Number",
-    link: "https://jacquestill-guessmynumber.netlify.app/",
-    imgUrl: guessmynum,
-    content: "Game where you need to guess the corrrect number",
-    code: "https://github.com/Jacquestill/javascript_course_master/tree/main/05-Guess-My-Number",
   },
   {
     name: "Pig Game",
     link: "https://jacquestill-piggame.netlify.app/",
     imgUrl: piggame,
     content:
-      "Using dice rolls to accumulate the highest score between 2 players",
+      "A game between opposing players fighting their way to 100 points. ",
     code: "https://github.com/Jacquestill/javascript_course_master/tree/main/07-Pig-Game",
   },
+  {
+    name: "Drumkit Game",
+    link: "https://jacquestill.github.io/drumkit-challenge/",
+    imgUrl: drumkit,
+    content:
+      "An application allowing the user to play drums using event handlers.",
+    code: "https://github.com/Jacquestill/drumkit-challenge",
+  },
+
   {
     name: "Bankist Arrays",
     link: "https://jacquestill-bankistarrays.netlify.app/",
     imgUrl: arrays,
-    content: "Banking application using arrays.",
+    content:
+      "Banking application developed using arrays. Banking user can transfer or deposit money as well as close their account. Password: js 1111",
     code: "https://github.com/Jacquestill/javascript_course_master/tree/main/11-Arrays-Bankist",
   },
   {
@@ -84,18 +73,20 @@ const project = [
     code: "https://github.com/Jacquestill/javascript_course_master/tree/main/13-Advanced-DOM-Bankist",
   },
   {
-    name: "Mapty Website",
-    link: "https://jacquestill-mapty.netlify.app/",
-    imgUrl: mapty,
-    content: "Training log map application",
-    code: "https://github.com/Jacquestill/javascript_course_master/tree/main/15-Mapty",
+    name: "Handyman Website",
+    link: "https://jacquestill.github.io/Andries-Handyman/",
+    imgUrl: handyman,
+    content:
+      "An interactive websites outlining the services provided by a local handyman in South Africa.",
+    code: "https://github.com/Jacquestill/Andries-Handyman",
   },
   {
-    name: "Forkify Website",
-    link: "https://forkify-jacquestill.netlify.app/",
-    imgUrl: forkify,
-    content: "Recipe application to search for specific recipes",
-    code: "https://github.com/Jacquestill/forkify-course",
+    name: "Sean Till Brokers",
+    link: "https://jacquestill.github.io/Seantill-Brokers/",
+    imgUrl: seantill,
+    content:
+      "Financial advisor website allowing the user to view all possible products, services and directly contact the advisor.",
+    code: "https://github.com/Jacquestill/Seantill-Brokers",
   },
 ];
 

@@ -6,7 +6,7 @@ import {
   FaGitAlt,
   FaGithub,
 } from "react-icons/fa";
-import { SiJavascript, SiJquery } from "react-icons/si";
+import { SiJavascript, SiJquery, SiNetlify, SiNodedotjs } from "react-icons/si";
 
 const skill = [
   {
@@ -34,12 +34,20 @@ const skill = [
     icon: <FaReact />,
   },
   {
+    title: "NodeJS",
+    icon: <SiNodedotjs />,
+  },
+  {
     title: "Git",
     icon: <FaGitAlt />,
   },
   {
     title: "Github",
     icon: <FaGithub />,
+  },
+  {
+    title: "Netlify",
+    icon: <SiNetlify />,
   },
 ];
 

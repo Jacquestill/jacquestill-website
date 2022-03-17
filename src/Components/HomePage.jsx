@@ -15,8 +15,8 @@ function HomePage() {
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeIn">
           <p className="home-content sub-header">
-            Helping people making their dreams a reality thought creating
-            professional sites that work.
+            Helping people realize their techno dreams by creating websites that
+            are innovative and intuitive.
           </p>
         </AnimationOnScroll>
       </div>

@@ -6,12 +6,12 @@ import client from "./img/client.gif";
 const promise = [
   {
     img: relationship,
-    content: "Healthy Relationship",
+    content: "Harmonious Relationship ",
     title: "relationship",
   },
   {
     img: fast,
-    content: "Fast & Beautiful Websites",
+    content: "Agile & aesthetic websites",
     title: "fast",
   },
   {
@@ -21,7 +21,7 @@ const promise = [
   },
   {
     img: client,
-    content: "Attact Target Clients",
+    content: "Transparency",
     title: "client",
   },
 ];
