@@ -6,6 +6,7 @@ import logo from "../img/JT-logo.png";
 import { BsFillPersonLinesFill, BsShieldFillCheck } from "react-icons/bs";
 import { AiFillFund, AiFillProject, AiFillPhone } from "react-icons/ai";
 import { HiDocumentAdd } from "react-icons/hi";
+import resume from "../img/JT-cv.pdf";
 
 function Navigation() {
   return (
@@ -42,7 +43,7 @@ function Navigation() {
               <Nav.Link className="nav-item" href="#contact">
                 <AiFillPhone /> Contact
               </Nav.Link>
-              <Nav.Link className="nav-item" href="#">
+              <Nav.Link className="nav-item" href={resume} download>
                 <HiDocumentAdd /> Download CV
               </Nav.Link>
             </Nav>
