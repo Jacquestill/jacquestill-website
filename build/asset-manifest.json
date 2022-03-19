@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.534eebd1.css",
-    "main.js": "/static/js/main.6faa918f.js",
+    "main.js": "/static/js/main.c1e93a79.js",
     "static/media/JT-photo.png": "/static/media/JT-photo.77fdd72be583daea2b83.png",
     "static/media/fast.gif": "/static/media/fast.434ec188e3d42fd7c598.gif",
     "static/media/relationship.gif": "/static/media/relationship.0fda1494f6fc2d5ae2af.gif",
@@ -11,7 +11,7 @@
     "static/media/mapty.jpeg": "/static/media/mapty.61a7f6e1b9f2d41441c2.jpeg",
     "static/media/seantill.jpeg": "/static/media/seantill.f76a30cb111c25a7b03f.jpeg",
     "static/media/forkify.jpeg": "/static/media/forkify.b3be3c09daa99b575de5.jpeg",
-    "static/media/JT-cv.pdf": "/static/media/JT-cv.8659fe994f3c2cca645e.pdf",
+    "static/media/JT-resume.pdf": "/static/media/JT-resume.92805a3f763bc4666cdb.pdf",
     "static/media/Note.jpeg": "/static/media/Note.3b3a6582e21e34d92eca.jpeg",
     "static/media/arraysL.jpeg": "/static/media/arraysL.49ca0a4132418a163f70.jpeg",
     "static/media/bankistL.jpeg": "/static/media/bankistL.d4152b14673831910fbb.jpeg",
@@ -24,10 +24,10 @@
     "static/media/pattern-dark.png": "/static/media/pattern-dark.12fc1a7a26724fd592f6.png",
     "index.html": "/index.html",
     "main.534eebd1.css.map": "/static/css/main.534eebd1.css.map",
-    "main.6faa918f.js.map": "/static/js/main.6faa918f.js.map"
+    "main.c1e93a79.js.map": "/static/js/main.c1e93a79.js.map"
   },
   "entrypoints": [
     "static/css/main.534eebd1.css",
-    "static/js/main.6faa918f.js"
+    "static/js/main.c1e93a79.js"
   ]
 }

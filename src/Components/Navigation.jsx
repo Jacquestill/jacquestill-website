@@ -6,7 +6,7 @@ import logo from "../img/JT-logo.png";
 import { BsFillPersonLinesFill, BsShieldFillCheck } from "react-icons/bs";
 import { AiFillFund, AiFillProject, AiFillPhone } from "react-icons/ai";
 import { HiDocumentAdd } from "react-icons/hi";
-import resume from "../img/JT-cv.pdf";
+import resume from "../img/JT-resume.pdf";
 
 function Navigation() {
   return (
