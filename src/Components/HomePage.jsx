@@ -5,7 +5,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 function HomePage() {
   return (
-    <div>
+    <div className="container-fluid">
       <div id="home" className=" container-fluid row home">
         <div className="col-lg-9">
           <AnimationOnScroll animateIn="animate__fadeIn">
