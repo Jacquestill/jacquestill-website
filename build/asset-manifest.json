@@ -1,33 +1,33 @@
 {
   "files": {
     "main.css": "/static/css/main.534eebd1.css",
-    "main.js": "/static/js/main.c1e93a79.js",
-    "static/media/JT-photo.png": "/static/media/JT-photo.77fdd72be583daea2b83.png",
+    "main.js": "/static/js/main.00265613.js",
+    "static/media/Jacques-Photo.png": "/static/media/Jacques-Photo.2254e95d7f53b4b08fca.png",
     "static/media/fast.gif": "/static/media/fast.434ec188e3d42fd7c598.gif",
     "static/media/relationship.gif": "/static/media/relationship.0fda1494f6fc2d5ae2af.gif",
     "static/media/client.gif": "/static/media/client.a4b25e1bc6d2c23f913e.gif",
     "static/media/computer.gif": "/static/media/computer.6b57b9b529ff940cfedd.gif",
-    "static/media/handyman.jpeg": "/static/media/handyman.26f724951f61c7d42dc7.jpeg",
     "static/media/mapty.jpeg": "/static/media/mapty.61a7f6e1b9f2d41441c2.jpeg",
-    "static/media/seantill.jpeg": "/static/media/seantill.f76a30cb111c25a7b03f.jpeg",
+    "static/media/Driveclub.jpeg": "/static/media/Driveclub.b7a03aaad007048d86a1.jpeg",
     "static/media/forkify.jpeg": "/static/media/forkify.b3be3c09daa99b575de5.jpeg",
     "static/media/JT-resume.pdf": "/static/media/JT-resume.92805a3f763bc4666cdb.pdf",
     "static/media/Note.jpeg": "/static/media/Note.3b3a6582e21e34d92eca.jpeg",
     "static/media/arraysL.jpeg": "/static/media/arraysL.49ca0a4132418a163f70.jpeg",
-    "static/media/bankistL.jpeg": "/static/media/bankistL.d4152b14673831910fbb.jpeg",
     "static/media/JT-logo.png": "/static/media/JT-logo.ea9111f9c8cea077d13c.png",
     "static/media/drumgame.jpeg": "/static/media/drumgame.672f6759ec07591dacdc.jpeg",
     "static/media/piggameL.jpeg": "/static/media/piggameL.c7e29b1e9b61e3d08dac.jpeg",
     "static/media/simongame.jpeg": "/static/media/simongame.e188860d8dc4eea84e17.jpeg",
     "static/media/Sitting.png": "/static/media/Sitting.99152e8aaa864cefa52d.png",
+    "static/media/ToDoList.jpeg": "/static/media/ToDoList.69e753d969aa3d2a8f18.jpeg",
+    "static/media/Newsletter.jpeg": "/static/media/Newsletter.65d98b0b01f7394543ee.jpeg",
     "static/media/Standing.png": "/static/media/Standing.f2a01fbd3a2cf78c3601.png",
     "static/media/pattern-dark.png": "/static/media/pattern-dark.12fc1a7a26724fd592f6.png",
     "index.html": "/index.html",
     "main.534eebd1.css.map": "/static/css/main.534eebd1.css.map",
-    "main.c1e93a79.js.map": "/static/js/main.c1e93a79.js.map"
+    "main.00265613.js.map": "/static/js/main.00265613.js.map"
   },
   "entrypoints": [
     "static/css/main.534eebd1.css",
-    "static/js/main.c1e93a79.js"
+    "static/js/main.00265613.js"
   ]
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import jtphoto from "../img/JT-photo.png";
+import jtphoto from "../img/Jacques-Photo.png";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 function AboutPage() {
@@ -17,11 +17,11 @@ function AboutPage() {
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeIn">
             <p className="about-content sub-header">
-              Hi! I am Jacques, a front end developer passionate about combining
-              creativity with my analytical and detailed oriented mindset to
-              create an enjoyable and user friendly experience for web users. I
-              am a determined and productive web developer dedicated to
-              delivering superior websites for my clientele.
+              Hi! I am Jacques, a Full Stack developer passionate about
+              combining creativity with my analytical and detailed oriented
+              mindset to create an enjoyable and user friendly experience for
+              web users. I am a determined and productive web developer
+              dedicated to delivering superior websites for my clientele.
             </p>
           </AnimationOnScroll>
         </div>

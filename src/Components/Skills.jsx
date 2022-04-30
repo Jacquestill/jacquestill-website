@@ -1,6 +1,8 @@
 import React from "react";
 import SkillCard from "./SkillCard";
-import skill from "../skill";
+import frontendSkills from "../frontendSkills";
+import backendSkills from "../backendSkills";
+import generalSkills from "../generalSkills";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 function Skills() {
@@ -14,10 +16,25 @@ function Skills() {
     <div id="skills" className="container-fluid">
       <AnimationOnScroll animateIn="animate__fadeIn">
         <h2 className="skill-header">My Skills & Toolset</h2>
+
         <h3 className="skill-subhead sub-header">
-          Coding Languages & Frameworks
+          Front-End Languages & Frameworks
         </h3>
-        <div className="skill-container">{skill.map(createSkillCard)}</div>
+        <div className="skill-container">
+          {frontendSkills.map(createSkillCard)}
+        </div>
+
+        <h3 className="skill-subhead sub-header">
+          Back-End Languages & Frameworks
+        </h3>
+        <div className="skill-container">
+          {backendSkills.map(createSkillCard)}
+        </div>
+
+        <h3 className="skill-subhead sub-header">General Toolset</h3>
+        <div className="skill-container">
+          {generalSkills.map(createSkillCard)}
+        </div>
       </AnimationOnScroll>
     </div>
   );

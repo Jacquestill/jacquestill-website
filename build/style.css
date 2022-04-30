@@ -73,7 +73,7 @@ body {
   background-repeat: no-repeat;
   background-size: 0% 100%;
   background-position-x: right;
-  border-radius: 20px;
+  border-radius: 10px;
   animation: fadeIn 1000ms;
 }
 
@@ -132,7 +132,7 @@ body {
 .social:hover {
   color: var(--dark-color);
   background-color: var(--yellow-color);
-  border-radius: 20px;
+  border-radius: 10px;
   transform: scale(1.1);
 }
 
@@ -144,11 +144,11 @@ body {
 @keyframes pulse {
   from {
     box-shadow: var(--yellow-color) 0 0 0;
-    border-radius: 20px;
+    border-radius: 10px;
   }
   to {
     box-shadow: var(--yellow-color) 0 0 0 10px;
-    border-radius: 20px;
+    border-radius: 10px;
   }
 }
 
@@ -165,10 +165,11 @@ body {
   padding-left: 50px;
 }
 .about-img {
-  height: 380px;
+  height: 350px;
   display: flex;
   justify-content: center;
   margin: auto;
+  border-radius: 10px;
 }
 
 .about-content {
@@ -184,27 +185,28 @@ body {
   font-family: "Cinzel", serif;
   font-size: 3rem;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .skill-subhead {
   text-align: center;
   font-size: 2rem;
   font-weight: 300;
-  padding-bottom: 5%;
+  padding-bottom: 1%;
 }
 
 .skill-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 100px;
 }
 
 .skill-card {
   text-align: center;
   margin: 2%;
-  width: 150px;
-  border-radius: 20px;
+  width: 170px;
+  border-radius: 10px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -215,6 +217,7 @@ body {
 
 .skill-title {
   font-size: 1.5rem;
+  font-weight: 300;
 }
 
 /* Promises */
@@ -262,7 +265,7 @@ body {
 .project-img {
   height: 300px;
   position: relative;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .project-container {
@@ -276,7 +279,7 @@ body {
 .project-card {
   margin: 30px 30px 50px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: #e4e2e073;
 }
 
@@ -297,7 +300,7 @@ body {
 
 .project-card:hover .card-caption {
   height: 300px;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: var(--medium-color);
   opacity: 0.98;
   transform: translateY(-100%);
@@ -324,7 +327,7 @@ body {
   font-size: 1.2rem;
   margin-right: 50px;
   color: var(--medium-color);
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: var(--yellow-color);
   border: solid 3px #ffcf76;
   padding: 17px;
@@ -340,7 +343,7 @@ body {
   font-size: 2rem;
   color: var(--yellow-color);
   border: solid 3px #ffcf76;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 7px 12px 17px;
 }
 
@@ -380,7 +383,7 @@ body {
 }
 
 .contact-input {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 300;
   position: relative;
   margin-bottom: 80px;
@@ -391,11 +394,11 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  border: 3px solid var(--medium-color);
+  border: 2px solid var(--medium-color);
   outline: none;
   background: #e4e2e073;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .contact-input span {
@@ -426,11 +429,12 @@ body {
   font-size: 2rem;
   text-align: center;
   color: var(--medium-color);
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: var(--yellow-color);
   border: none;
   padding: 10px;
   width: 100%;
+  border: 2px solid var(--medium-color);
 }
 
 .contact-btn:hover {
@@ -519,7 +523,7 @@ body {
     /* margin-bottom: 50px; */
   }
   .skill-container {
-    padding: 10%;
+    padding: 5%;
   }
   .skill-icon {
     font-size: 3rem;

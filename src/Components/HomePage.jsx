@@ -11,7 +11,7 @@ function HomePage() {
           <h1 className="home-title">Jacques Till</h1>
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeIn">
-          <h3 className="home-subtitle sub-header">Front-End Developer</h3>
+          <h3 className="home-subtitle sub-header">Full-Stack Developer</h3>
         </AnimationOnScroll>
         <AnimationOnScroll animateIn="animate__fadeIn">
           <p className="home-content sub-header">
