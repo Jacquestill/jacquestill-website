@@ -13,7 +13,7 @@ function ContactCard() {
           <ContactInput name="Name" type="text" />
           <ContactInput name="Email" type="email" />
           <div className="contact-input message-box">
-            <input type="text" required />
+            <input type="text" name="message" required />
             <span>Your Message</span>
           </div>
           <button className="contact-btn">Send</button>
